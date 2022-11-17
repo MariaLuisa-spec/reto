@@ -55,7 +55,7 @@
                             {{ trans('cruds.appointment.fields.price') }}
                         </th>
                         <td>
-                            ${{ $appointment->price }}
+                            {{ $appointment->price }}
                         </td>
                     </tr>
                     <tr>
